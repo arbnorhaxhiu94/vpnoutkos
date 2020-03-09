@@ -18,7 +18,6 @@ class UsersTableSeeder extends Seeder
         	'lastname' => 'root',
         	'email' => 'admin1@gmail.com',
         	'password' => bcrypt('123456789'),
-        	'addresses_id' => '1',
         ]);
 
         DB::table('users')->insert([
@@ -27,7 +26,6 @@ class UsersTableSeeder extends Seeder
         	'lastname' => 'ronaldo',
         	'email' => 'cr7@gmail.com',
         	'password' => bcrypt('123456789'),
-        	'addresses_id' => '1',
         ]);
 
         DB::table('users')->insert([
@@ -36,7 +34,6 @@ class UsersTableSeeder extends Seeder
         	'lastname' => 'messi',
         	'email' => 'lm10@gmail.com',
         	'password' => bcrypt('123456789'),
-        	'addresses_id' => '1',
         ]);
 
     }
